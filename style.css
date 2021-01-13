@@ -27,7 +27,7 @@ penguin-ecommerce{
     border-radius: 30px;
     height: 25em;
 }
-@media only screen and (max-width: 700px) {.woman-jacket, .man-jacket{
+@media only screen and (max-width: 700px) {.woman-jacket, .man-jacket, .latest-products{
     text-align: center;
 }
 }
@@ -54,4 +54,21 @@ penguin-ecommerce{
 }
 .buy-now{
     background-image: linear-gradient(#A4BC46, #85A019);
+}
+.desktop-col{
+    margin-top: 0px 10px;
+    box-shadow: 2px 5px 10px #aaa9a9;
+    border-radius: 10px;
+}
+.mobile-slider-carausel{
+    box-shadow: 2px 5px 10px #aaa9a9;
+    border-radius: 10px;
+}
+@media (max-width: 700px) { .image-slider{
+    display: none;
+}
+}
+@media (min-width: 700px) { .mobile-slider{
+    display: none;
+}
 }
