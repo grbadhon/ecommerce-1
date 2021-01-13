@@ -1,0 +1,57 @@
+penguin-ecommerce{
+    font-family: 'Roboto', sans-serif;
+}
+.yellow-text, .blue-text{
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.yellow-text{
+    color:#FABE4C ;
+}
+.blue-text{
+    color: #363958;
+}
+.header-text{
+    font-size: 80px;
+}
+.header-image img{
+    width: 100%;
+}
+.card img{
+    /* height: 273px; */
+    width: 60%;
+}
+.product-image{
+    padding: 20px 0px;
+    background-color: #F1F1F1;
+    border-radius: 30px;
+    height: 25em;
+}
+@media only screen and (max-width: 700px) {.woman-jacket, .man-jacket{
+    text-align: center;
+}
+}
+.product-title{
+    font-size: 24px;
+    color: #363958;
+}
+.product-price{
+    font-size: 36px;
+    color: #FABE4C;
+}
+.penguin-product{
+    border: 0px;
+}
+.product-footer{
+    border: 0px;
+    background-color: white;
+}
+.product-column{
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px #aaa9a9;
+    padding: 10px;
+    width: 22em;
+}
+.buy-now{
+    background-image: linear-gradient(#A4BC46, #85A019);
+}
