@@ -1,6 +1,26 @@
-penguin-ecommerce{
-    font-family: 'Roboto', sans-serif;
+*{
+    margin: 0px;
+    padding: 0px;
 }
+
+.penguin-ecommerce{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.penguin-header{
+    background-color:#FFFBF0 ;
+}
+.penguin-logo{
+    width: 290px;
+    height: 40px;
+ 
+}
+.nav-ancor{
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
 .yellow-text, .blue-text{
     font-family: 'Bebas Neue', cursive;
     
@@ -55,6 +75,7 @@ penguin-ecommerce{
 .buy-now{
     background-image: linear-gradient(#A4BC46, #85A019);
 }
+/* CSS FOR PRODUCT SLIDER */
 .desktop-col{
     margin-top: 0px 10px;
     box-shadow: 2px 5px 10px #aaa9a9;
@@ -72,3 +93,4 @@ penguin-ecommerce{
     display: none;
 }
 }
+/* CSS FOR PRODUCT SLIDER END */
