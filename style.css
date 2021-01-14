@@ -37,7 +37,7 @@
 .header-image img{
     width: 100%;
 }
-.card img{
+.product-card-image{
     /* height: 273px; */
     width: 60%;
 }
@@ -75,6 +75,44 @@
 .buy-now{
     background-image: linear-gradient(#A4BC46, #85A019);
 }
+
+/* CSS FOR stacks */
+.stacks-area{
+    margin: 10em 0em;
+}
+.stacks-img{
+    width: 79px;
+    height: 82px;
+}
+.stacks-box{
+    background: #FFFFFF;
+    box-shadow: 2px 10px 20px #aaa9a9;
+    border-radius: 20px;
+    margin: 1em 0em;
+}
+ 
+.stacks-h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;  
+    color: #363958;
+ 
+}
+.stacks-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+.stacks-right-side-img{
+    width: 100%;
+}
+.card-header-background{
+    background-color: white;
+}
+
 /* CSS FOR PRODUCT SLIDER */
 .desktop-col{
     margin-top: 0px 10px;
