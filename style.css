@@ -86,15 +86,16 @@
 }
 
 /* CSS FOR stacks */
-.stacks-area{
+.stacks-area, .stacks-area-mobile{
     margin: 10em 0em;
 }
 .stacks-img{
-    width: 79px;
-    height: 82px;
+    width: 65px;
+    background-color: white;
+    /* height: 82px; */
 }
 .stacks-box{
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: 2px 10px 20px #aaa9a9;
     border-radius: 20px;
     margin: .5em 0em;
@@ -119,7 +120,10 @@
     width: 100%;
 }
 .card-header-background{
+    
+    border: 0px;
     background-color: white;
+   
 }
 
 /* CSS FOR PRODUCT SLIDER */
@@ -132,11 +136,11 @@
     box-shadow: 2px 5px 10px #aaa9a9;
     border-radius: 10px;
 }
-@media (max-width: 700px) { .image-slider{
+@media (max-width: 700px) { .image-slider, .stacks-area{
     display: none;
 }
 }
-@media (min-width: 700px) { .mobile-slider{
+@media (min-width: 700px) { .mobile-slider,.stacks-area-mobile{
     display: none;
 }
 }
